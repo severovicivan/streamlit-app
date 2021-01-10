@@ -65,12 +65,31 @@ def get_users():
 def combine():
     users = pd.read_csv('Users.csv')
     transactions = pd.read_csv('Transactions.csv')
-    st.write("""
-    # Pinkman zadatak
-    Tablica korisnika i transakcija 
+    st.write(""" # Pinkman zadatak
+             Ispod su prikazane tablica korisnika i tablica transakcija.
+    Tablicu korisnika sam kreirao pomoću inner joina tablica iz dump-a baze,
+    a tablicu transakcija sam kreirao dohvaćanjem vrijednosti iz API-ja.
     """)
     st.dataframe(users)
     st.dataframe(transactions)
+    st.write(""" 
+             Prethodne dvije tablice su kreirane pomoću programskog jezika
+    Python jer je on bolji za pripremu, čišćenje i transformaciju podataka, te
+    podržava noSQL strukturu. Programski jezik PHP podržava relacijski SQL
+    model baze podataka i OOP.
+            Sljedeći korak bi bio kreiranje dva modela: Korisnik i Transakcija,
+    njihovo povezivanje 1:M vezom, te migracija i seed tablica u Laravelu.
+    Tada bi se prvi zadatak mogao riješiti vrlo lako i klikom na željenog
+    korisnika otvorio bi se modal sa svim podacima o njemu skupa s popisom 
+    njegovih transakcija. 
+            S obzirom na to je u zadatku navedeno da se za njegovo rješavanje ne
+    smije koristiti framework, a PHP znam koristiti sa uz Laravel framework, 
+    vratit ću se na rješavanje zadatka putem Pythona. Kako bih dobio željene
+    rezultate iz zadatka bit će potrebna još jedna denormalizacija. Spajanjem
+    tablice korisnika s tablicom transakcija dobivamo sljedeći rezultat.
+    """)
+    final_df = pd.merge(users, transactions, left_on='id', right_on='User_ID')
+    st.dataframe(final_df)
 
 if __name__ == '__main__':
     # get_transactions()
