@@ -1,0 +1,26 @@
+﻿ID,Type,User_ID,Date,Amount,Currency,Processed,Details
+1,Visa,1,2020-07-01 17:55:43,123.56,eur,1,Polo shirt purchase
+2,Visa,3,2020-07-02 11:52:43,14.12,eur,1,Starbucks coffee Chicago
+3,Maestro,9,2020-02-22 19:54:43,12.07,eur,1,McDonalds Plovdiv
+4,Mastercard,8,2020-07-02 12:55:43,19.55,usd,0,
+5,Visa,1,2020-07-04 21:55:43,21.11,eur,1,Malta Airlines ticket purchase
+6,Maestro,4,2020-07-05 09:55:43,10.78,usd,1,Walmart purchase
+7,Maestro,5,2020-07-05 07:28:43,125.72,eur,1,Walmart purchase
+8,Mastercard,1,2020-07-06 19:22:43,56.56,eur,1,McDonalds Plovdiv
+9,Visa,3,2020-07-07 22:55:43,23.22,eur,0,
+10,Maestro,9,2020-07-07 15:10:43,18.67,eur,1,
+11,Maestro,8,2020-07-07 15:12:43,24.14,usd,1,
+12,Maestro,1,2020-07-08 18:55:43,86.19,eur,0,
+13,Maestro,4,2020-07-08 21:55:00,66.29,eur,0,
+14,MasterCard,5,2020-07-08 22:12:43,49.5,eur,1,Apple Store New York
+15,Visa,1,2020-07-08 12:55:40,99.27,eur,1,
+16,Visa,3,2020-07-08 09:55:43,81.99,eur,1,McDonalds New York
+17,Mastercard,9,2020-07-09 10:55:43,37.29,eur,0,Samsung store Shenzen
+18,Visa,8,2020-07-09 12:55:43,48.79,usd,1,T-shirt purchase GAP
+19,Maestro,1,2020-07-10 15:55:43,59.99,eur,0,Walmart purchase
+20,Maestro,2,2020-07-10 19:55:43,67.49,usd,1,
+21,Visa,2,2020-07-10 23:51:43,35.37,eur,1,
+22,Mastercard,7,2020-07-11 09:55:43,44.14,eur,1,Xiaomi store Zagreb
+23,Maestro,6,2020-07-12 12:55:43,26.78,eur,1,
+24,Visa,10,2020-07-12 22:55:43,29.35,eur,1,Nike online store
+25,Mastercard,8,2020-07-12 14:55:43,82.81,eur,1,

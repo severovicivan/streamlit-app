@@ -1,0 +1,11 @@
+﻿id,email,username,password,firstname,lastname,dob,city,zipcode,address,created_at,status,country,id,name,code,id,name
+1,denis@google.email,denis,c3875d07f44c422f3b3bc019c23e16ae,denis,denny,1990-05-29,Rijeka,51000,Street No 10,2020-08-06 15:23:46,1,1,1,Croatia,HR,1,active
+2,miro@cg.email,miro,e0eaf3841f8ca5bf93a2c2a1d0648d44,miro,restac,1980-08-29,Rijeka,51000,Street No 55,2020-08-06 15:23:46,1,1,1,Croatia,HR,1,active
+3,vasko@ms.email,vasko,1906d4d8300dfbb4d03cb21702465b4c,vasko,vasky,1966-02-02,Plovdiv,4000,Street Php 1,2020-08-06 15:23:46,2,2,2,Bulgaria,BG,2,inactive
+4,martin@dummy.email,martin,925d7518fc597af0e43f5606f9a51512,martin,dummy,1987-12-30,Plovdiv,4000,Street FS 5,2020-08-06 15:23:46,1,2,2,Bulgaria,BG,1,active
+5,andrea@qa.email,andrea,1c42f9c1ca2f65441465b43cd9339d6c,andrea,cakula,1995-07-11,Zagreb,10000,Street Qa 22,2020-08-06 15:23:46,2,1,1,Croatia,HR,2,inactive
+6,marija@qa.email,marija,cb74c183402afe708a490f0048af6e41,marija,fun,1994-03-27,Pula,52000,Street Qa 3,2020-08-06 15:23:46,1,1,1,Croatia,HR,1,active
+7,irena@boss.email,irena,4feaf7069df098a519b1aa5c5b065ec5,irena,condor,1996-06-09,Tashbiesh,MT-58,Street Off 14,2020-08-06 15:23:46,1,3,3,Malta,MT,1,active
+8,mar@boss.email,mar,5fa9db2e335ef69a4eeb9fe7974d61f4,mar,boss,1983-09-21,Tashbiesh,MT-58,Street Off 55,2020-08-06 15:23:46,1,3,3,Malta,MT,1,active
+9,dino@vip.email,dino,b246ff693d453c3b1a3049752da2bc75,dino,biggie,1981-11-26,Rijeka,51000,Street No 69,2020-08-06 15:23:46,1,1,1,Croatia,HR,1,active
+10,marko@vip.email,marko,c28aa76990994587b0e907683792297c,marko,biggie,1995-02-27,Rijeka,51000,Street No 111,2020-08-06 15:23:46,3,1,1,Croatia,HR,3,disabled
