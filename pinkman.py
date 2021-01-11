@@ -134,6 +134,11 @@ def build_app():
         b64 = base64.b64encode(csv2.encode()).decode()
         link1= f'<a href="data:file/csv;base64,{b64}" download="Korisnici.csv">Download csv :floppy_disk: </a>'
         st.sidebar.markdown(link1, unsafe_allow_html=True)
+        
+    if st.server.request.foo == 'korisnici':
+        st.server.respond({'data': korisnici})
+    if st.server.request.foo == 'drzave':
+        st.server.respond({'data': drzave})
 
     
     
