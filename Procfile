@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run pinkman.py
+web: sh setup.sh && streamlit run streamlit.py
