@@ -1,3 +1,3 @@
 # Streamlit aplikacija
 
-https://pinkman-zadatak.herokuapp.com/
+https://ivan-seve.herokuapp.com/
